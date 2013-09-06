@@ -1,3 +1,5 @@
+CHATBOT
+=======
 Here's a list of required packages with their versions.
 You can find each of those on Google
 
@@ -14,7 +16,7 @@ wsgiref         - 0.1.2        - active development (/usr/lib64/python2.7)
 
 ********************************************
 
-HOW TO INSTALL SLEEKMPP
+- HOW TO INSTALL SLEEKMPP
 
 
 Install method 2 (if you have hg installed):
@@ -37,3 +39,9 @@ python -c "import sleekxmpp;print 'ok'"
 python talk206.py -j YOURLOGIN@gmail.com -p YOURPASSWORD
 
 *********************************************
+
+- DESCRIPTION
+
+This chatbot will reply to a bunch of different pre-defined questions, which can be seen by typing help when talking to him. If the bot does not recognize a question, he will give some general replies (3 variations before repeating himself).
+He can also be polite if he wishes!
+His talking capability can be found in chatter.py.
